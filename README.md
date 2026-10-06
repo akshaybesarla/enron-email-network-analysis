@@ -111,7 +111,7 @@ For each sender, the month in which they contacted the most *distinct people*
 
 ## Execution model
 
-![Lineage graph](docs/images/lineage_dag.jpg)
+![Lineage graph](lineage_dag.jpg)
 
 The lineage graph for `get_out_degrees`, assuming two partitions per RDD. Spark
 builds this DAG lazily and only executes when an action is called.
@@ -135,7 +135,7 @@ picture with different magnitudes.
 
 ### Concentration
 
-![Degree concentration](docs/images/concentration.png)
+![Degree concentration](concentration.png)
 
 | | Top 20% share | Pareto (80/20)? |
 |---|---|---|
@@ -148,7 +148,7 @@ announcement accounts rather than purely with individual seniority.
 
 ### Growth of the maximum degree
 
-![Growth](docs/images/growth.png)
+![Growth](growth.png)
 
 Over cumulative monthly slices, the network grew to 16,519 nodes while the
 maximum out-degree reached 28,312 and maximum in-degree 4,633. Out-degree grows
@@ -158,7 +158,7 @@ connections faster than the network adds nodes.
 
 ### Degree distribution
 
-![Degree distributions](docs/images/degree_distribution.png)
+![Degree distributions](degree_distribution.png)
 
 Plotted as a complementary CDF rather than a raw histogram. A heavy-tailed
 histogram has a long run of degree values observed exactly once, which flattens
@@ -258,7 +258,7 @@ src/sources.py         Sequence-file and text-directory readers
 src/generate_data.py   Synthetic corpus generator
 run_analysis.py        CLI entry point, writes results.json and charts
 tests/                 19 pytest tests
-docs/images/           Charts used in this README
+
 ```
 
 ## References
