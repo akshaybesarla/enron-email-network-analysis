@@ -266,6 +266,4 @@ tests/                 19 pytest tests
 - Clauset, A., Shalizi, C. R., & Newman, M. E. J. (2009). Power-law distributions in empirical data. *SIAM Review*, 51(4), 661–703.
 - Klimt, B., & Yang, Y. (2004). Introducing the Enron corpus. *CEAS*.
 
-## License
 
-MIT — see [LICENSE](LICENSE).
