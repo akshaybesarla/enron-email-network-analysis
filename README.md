@@ -1,7 +1,3 @@
-# enron-email-network-analysis
-Distributed processing of 500K+ emails with PySpark (RDD API) on HDFS — builds a weighted directed communication graph and analyses its degree distributions, concentration and power-law structure.
-
-
 # Enron Email Network Analysis
 
 Distributed processing of a half-million-message email corpus with Apache Spark,
@@ -262,7 +258,7 @@ src/sources.py         Sequence-file and text-directory readers
 src/generate_data.py   Synthetic corpus generator
 run_analysis.py        CLI entry point, writes results.json and charts
 tests/                 19 pytest tests
-
+docs/images/           Charts used in this README
 ```
 
 ## References
@@ -270,5 +266,6 @@ tests/                 19 pytest tests
 - Clauset, A., Shalizi, C. R., & Newman, M. E. J. (2009). Power-law distributions in empirical data. *SIAM Review*, 51(4), 661–703.
 - Klimt, B., & Yang, Y. (2004). Introducing the Enron corpus. *CEAS*.
 
+## License
 
-
+MIT — see [LICENSE](LICENSE).

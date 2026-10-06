@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated locally, not committed
+data/raw/
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+.DS_Store

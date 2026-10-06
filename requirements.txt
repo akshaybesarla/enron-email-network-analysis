@@ -1,0 +1,4 @@
+pyspark==3.5.3
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.4
